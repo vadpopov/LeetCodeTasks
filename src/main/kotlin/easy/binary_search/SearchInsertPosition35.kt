@@ -1,4 +1,4 @@
-package easy
+package easy.binary_search
 
 class SearchInsertPosition {
     fun searchInsert(nums: IntArray, target: Int): Int {
@@ -19,14 +19,7 @@ class SearchInsertPosition {
                     else -> right = mid - 1
                 }
             }
-            println(mid)
-            if (nums[mid] > target) {
-
-                return mid-1
-            }
-            else {
-                return mid + 1
-            }
+            return left
         }
     }
 }

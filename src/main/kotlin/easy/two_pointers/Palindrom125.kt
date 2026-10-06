@@ -1,6 +1,4 @@
-package easy
-
-import jdk.internal.org.jline.utils.Colors.s
+package easy.two_pointers
 
 class Palindrom {
 
